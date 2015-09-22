@@ -13,7 +13,7 @@ ini_set('display errors', 1);
     <meta name="author" content="Trevor Simpkin">
 
     <title>Trevor Simpkin - xkcd style password generator</title>
-
+    <?php require 'logic.php'; ?>
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,6 +25,7 @@ ini_set('display errors', 1);
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
@@ -62,44 +63,30 @@ ini_set('display errors', 1);
             </div>
             <div class="row">
                 <div class="col-md-3">
-                <form>
+                <form method='POST' action='index.php'>
                     <div class="form-group">
                         <label for="number_of_words">Number of Words</label>
-                        <input type="text" class="form-control" id="numberOfWords1" placeholder="#">
+                        <input type="text" class="form-control" id="numberOfWords1" name='numberOfWords' placeholder="#">
 
                     </div>
                     <div class="checkbox">
                         <label for="add_symbol">
-                            <input type="checkbox" id="add_symbol"> Add a symbol.
+                            <input type="checkbox" id="add_symbol" name='isSymbol'> Add a symbol.
                         </label>
                     </div>
                     <div class="checkbox">
                         <label for="add_number">
-                            <input type="checkbox" id="add_number"> Add a number.
+                            <input type="checkbox" id="add_number" name='isNumber'> Add a number.
                         </label>
                     </div>
                     <button type="submit" class="btn btn-default">Generate!</button>
                 </form>
+                    <pre>
+    <?php print_r($_POST); ?>
+</pre>
                 </div>
                 <div class="col-md-9">
-                    <form>
-                        <div class="form-group">
-                            <label for="number_of_words">Number of Words</label>
-                            <input type="text" class="form-control" id="numberOfWords1" placeholder="#">
-
-                        </div>
-                        <div class="checkbox">
-                            <label for="add_symbol">
-                                <input type="checkbox" id="add_symbol"> Add a symbol.
-                            </label>
-                        </div>
-                        <div class="checkbox">
-                            <label for="add_number">
-                                <input type="checkbox" id="add_number"> Add a number.
-                            </label>
-                        </div>
-                        <button type="submit" class="btn btn-default">Generate!</button>
-                    </form>
+                    <h3><?php echo $randomWord?></h3>
                 </div>
             </div><!--/row-->
         </div><!--/.col-xs-12.col-sm-9-->
