@@ -97,7 +97,7 @@ ini_set('display errors', 1);
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
             <div class="list-group">
-                <a href="../project1/index.html" class="list-group-item">PROJECT 1 (VIEW)</a>
+                <a href="https://p1.trevorsimpkin.com" class="list-group-item">PROJECT 1 (VIEW)</a>
                 <a href="https://github.com/trevorsimpkin/project1" class="list-group-item">PROJECT 1 (GITHUB)</a>
                 <a href="#" class="list-group-item active">PROJECT 2 (VIEW)</a>
                 <a href="https://github.com/trevorsimpkin/p2" class="list-group-item">PROJECT 2 (GITHUB)</a>
