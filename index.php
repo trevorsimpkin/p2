@@ -57,7 +57,7 @@ ini_set('display errors', 1);
                 <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
             </p>
             <div class="jumbotron">
-                <h1>XCKD style password generator</h1>
+                <h1>XCKD Style Password Generator</h1>
                 <p>XCKD passwords are combinations of random words that make them easy to remember, but difficult for a computer to guess.</p>
                 <p>Just enter the desired number of words below and whether or not you want a symbol or number. You can also choose if you want
                     camel case words rather than hyphen separated words. This will produce a password that is both secure and easy to remember!</p>
