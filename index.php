@@ -78,15 +78,19 @@ ini_set('display errors', 1);
                         <label for="add_number">
                             <input type="checkbox" id="add_number" name='isNumber'> Add a number.
                         </label>
+
+                    </div>
+                    <div class="checkbox">
+                        <label for="camel_Case">
+                            <input type="checkbox" id="camel_Case" name='isCamelCase'> Add camelCase.
+                        </label>
                     </div>
                     <button type="submit" class="btn btn-default">Generate!</button>
                 </form>
-                    <pre>
-    <?php print_r($_POST); ?>
-</pre>
                 </div>
                 <div class="col-md-9">
-                    <h3><?php echo $randomWord?></h3>
+                    <h2>Your Password:</h2>
+                    <h3><?php echo $wordToDisplay?></h3>
                 </div>
             </div><!--/row-->
         </div><!--/.col-xs-12.col-sm-9-->
@@ -96,7 +100,7 @@ ini_set('display errors', 1);
                 <a href="../project1/index.html" class="list-group-item">PROJECT 1 (VIEW)</a>
                 <a href="https://github.com/trevorsimpkin/project1" class="list-group-item">PROJECT 1 (GITHUB)</a>
                 <a href="#" class="list-group-item active">PROJECT 2 (VIEW)</a>
-                <a href="#" class="list-group-item">PROJECT 2 (GITHUB)</a>
+                <a href="https://github.com/trevorsimpkin/p2" class="list-group-item">PROJECT 2 (GITHUB)</a>
                 <a href="#" class="list-group-item">PROJECT 3 (VIEW)</a>
                 <a href="#" class="list-group-item">PROJECT 3 (GITHUB)</a>
             </div>
