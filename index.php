@@ -66,7 +66,7 @@ ini_set('display errors', 1);
                 <div class="col-md-3">
                 <form method='POST' action='index.php'>
                     <div class="form-group">
-                        <label for="number_of_words">Number of Words</label>
+                        <label>Number of Words</label>
                         <input type="text" class="form-control" id="numberOfWords1" name='numberOfWords' placeholder="#">
 
                     </div>
