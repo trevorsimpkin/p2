@@ -58,8 +58,9 @@ ini_set('display errors', 1);
             </p>
             <div class="jumbotron">
                 <h1>XCKD style password generator</h1>
-                <p>This will produce a password that is both secure and easy to remember!</p>
-                <!--<img src='images/trevor.jpg' alt='Trevor Simpkin'>-->
+                <p>XCKD passwords are combinations of random words that make them easy to remember, but difficult for a computer to guess.</p>
+                <p>Just enter the desired number of words below and whether or not you want a symbol or number. You can also choose if you want
+                    camel case words rather than hyphen separated words. This will produce a password that is both secure and easy to remember!</p>
             </div>
             <div class="row">
                 <div class="col-md-3">
