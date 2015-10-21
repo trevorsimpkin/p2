@@ -103,7 +103,7 @@ ini_set('display errors', 1);
                 <a href="#" class="list-group-item active">PROJECT 2 (VIEW)</a>
                 <a href="https://github.com/trevorsimpkin/p2" class="list-group-item">PROJECT 2 (GITHUB)</a>
                 <a href="http://p3.trevorsimpkin.com"class="list-group-item">PROJECT 3 (VIEW)</a>
-                <a href="https://github.com/trevorsimpkin/p2" class="list-group-item">PROJECT 3 (GITHUB)</a>
+                <a href="https://github.com/trevorsimpkin/p3" class="list-group-item">PROJECT 3 (GITHUB)</a>
                 <a href="#" class="list-group-item">PROJECT 4 (VIEW)</a>
                 <a href="#" class="list-group-item">PROJECT 4 (GITHUB)</a>
             </div>
